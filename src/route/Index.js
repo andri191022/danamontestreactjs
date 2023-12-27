@@ -12,7 +12,7 @@ import Invest from "../pages/Invest";
 // 
 import GetAuth02 from "../pages/pre-built/danamon/get-auth02";
 import CreateVA from "../pages/pre-built/danamon/create-va";
-
+import GetInquiryBalance from "../pages/pre-built/danamon/inquiry-balance";
 // 
 
 import Overview from "../pages/panel/invest/Overview";
@@ -167,7 +167,7 @@ const Router = () => {
           <Route path="project-list" element={<ProjectListPage />}></Route>
           <Route path="get-auth02" element={<GetAuth02 />}></Route>
           <Route path="create-va" element={<CreateVA />}></Route>
-
+          <Route path="inquiry-balance" element={<GetInquiryBalance/>}></Route>
           
           <Route path="invest" >
             <Route index element={<Overview />}></Route>

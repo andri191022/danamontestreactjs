@@ -141,6 +141,10 @@ const menu = [
           {
             text:"Create VA",
             link:"/create-va"
+          },
+          {
+            text:"Inquiry Balance",
+            link:"/inquiry-balance"
           }
           
         ]
